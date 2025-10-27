@@ -14,6 +14,3 @@ def get_collection():
     db = client[f"{MONGO_DB}"]
     collection = db[f"{MONGO_COLLECTION}"]
     return collection
-
-
-print(get_collection())
